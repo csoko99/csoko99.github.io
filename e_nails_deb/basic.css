@@ -1,0 +1,207 @@
+body{
+  background:#fff1eb ;
+}
+header{
+    text-align: center;
+    font-family: 'Shippori Mincho B1', serif;
+    margin-top: 20px;
+}
+nav{
+   margin-left: 50px;
+   margin-right: 50px;
+   font-family: 'Shippori Mincho B1', serif;
+   
+   
+
+}
+#second{
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  font-family: 'Shippori Mincho B1', serif;
+}
+#first{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+#social{
+    text-align: right;
+    margin-right: 20px;
+   
+}
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.6;
+      color: blanchedalmond;
+      text-decoration: none;
+  }
+  
+  .fa-facebook {
+    background: #1f56cc;
+    color: white;}
+
+ .fa-instagram {
+
+        background: linear-gradient(45DEG,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
+        color: white;}
+
+        #btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin: 20px auto;
+            width: 100px;
+            height: 100px;
+            background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+            border-radius: 75px;
+            font-family: 'Shippori Mincho B1', serif;
+            font-size: 20px;
+            font-weight: lighter;
+            letter-spacing: 2px;
+            transition: 1s box-shadow;
+          }
+          
+          #btn:hover {
+            box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+          }
+          
+          #btn:hover::before, #btn:hover::after {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: cyan;
+            border-radius: 75px;
+            z-index: -1;
+            animation: 1s clockwise infinite;
+          }
+          
+          #btn:hover:after {
+            background:#e7a9ff;
+            animation: 2s counterclockwise infinite;
+          }
+          
+          @keyframes clockwise {
+            0% {
+              top: -5px;
+              left: 0;
+            }
+            12% {
+              top: -2px;
+              left: 2px;
+            }
+            25% {
+              top: 0;
+              left: 5px;    
+            }
+            37% {
+              top: 2px;
+              left: 2px;
+            }
+            50% {
+              top: 5px;
+              left: 0;    
+            }
+            62% {
+              top: 2px;
+              left: -2px;
+            }
+            75% {
+              top: 0;
+              left: -5px;
+            }
+            87% {
+              top: -2px;
+              left: -2px;
+            }
+            100% {
+              top: -5px;
+              left: 0;    
+            }
+          }
+          
+          @keyframes counterclockwise {
+            0% {
+              top: -5px;
+              right: 0;
+            }
+            12% {
+              top: -2px;
+              right: 2px;
+            }
+            25% {
+              top: 0;
+              right: 5px;    
+            }
+            37% {
+              top: 2px;
+              right: 2px;
+            }
+            50% {
+              top: 5px;
+              right: 0;    
+            }
+            62% {
+              top: 2px;
+              right: -2px;
+            }
+            75% {
+              top: 0;
+              right: -5px;
+            }
+            87% {
+              top: -2px;
+              right: -2px;
+            }
+            100% {
+              top: -5px;
+              right: 0;    
+            }
+          }
+          #nails{
+              color: black;
+              
+              font-size: 20px;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+              text-decoration: none;
+          }
+          
+          #lab{
+            text-align: center;
+            font-family: 'Shippori Mincho B1', serif;
+          }
+          .carousel-inner img {
+            width: 30%;
+    
+            height: 30%;}
+        .carousel-item{
+            text-align: center;
+        }
+        .kepek{
+            width: 300px;
+        }
+        .benn{
+            text-align: center;
+        }
+       .kepek:hover{
+           opacity: 0.9;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        animation-name: example;
+        animation-duration: 0.25s;
+        border-left: 8px solid #833AB4; 
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+       }
+       .lista{
+         background: #e7a9ff ;
+         font-family: 'Shippori Mincho B1', serif;
+       }
+      
